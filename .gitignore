@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data & artifacts (keep placeholders)
+data/**
+!data/.gitkeep
+results/**
+!results/.gitkeep
+models/**
+!models/.gitkeep
+figures/**
+!figures/.gitkeep
+
+# Logs
+logs/
+*.log
